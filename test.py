@@ -208,3 +208,8 @@
 #     add_suffix_to_filename(source_folder, suffix)
 #     cut_and_paste(source_folder, destination_folder)
 
+from functools import reduce
+def add(x, y):
+    return x + y
+
+s = print(reduce(add, [1, 2, 3, 4, 5]))
