@@ -213,3 +213,9 @@ def add(x, y):
     return x + y
 
 s = print(reduce(add, [1, 2, 3, 4, 5]))
+
+
+
+
+lis = ["a", "b", "c"]
+print(len(lis))
